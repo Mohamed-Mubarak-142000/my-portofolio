@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+ul.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.nav-links li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul.nav-links li a.active {
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+ul.nav-links li:last-of-type {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
